@@ -1,0 +1,30 @@
+{
+  "name": "web_ids",
+  "version": "1.0.0",
+  "description": "Intrusion Detection System analysing http requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhatzl/web_ids.git"
+  },
+  "keywords": [],
+  "author": "",
+  "contributors": [
+    {
+      "name": "Nadir Fejzic",
+      "email": "nadirfejzo@gmail.com",
+      "url": "https://github.com/nfejzic"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhatzl/web_ids/issues"
+  },
+  "homepage": "https://github.com/mhatzl/web_ids#readme",
+  "dependencies": {
+    "redis": "^3.1.2"
+  }
+}
