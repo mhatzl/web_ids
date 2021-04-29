@@ -18,8 +18,3 @@ subscriber.on("message", function(channel, message) {
 });
 
 subscriber.subscribe("nginx_logs_json");
-
-// setInterval(() => {
-//     seconds++;
-//     console.log("Seconds passed: " + seconds);
-// }, 1000);
