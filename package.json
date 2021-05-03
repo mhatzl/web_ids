@@ -2,7 +2,10 @@
   "name": "web_ids",
   "version": "1.0.0",
   "description": "Intrusion Detection System analysing http requests",
-  "main": "index.js",
+  "main": "./lib/web_ids.js",
+  "bin": {
+    "web_ids": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +14,7 @@
     "url": "git+https://github.com/mhatzl/web_ids.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nadir Fejzic",
   "contributors": [
     {
       "name": "Nadir Fejzic",

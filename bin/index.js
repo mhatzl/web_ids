@@ -1,20 +1,7 @@
-const redis = require("redis");
+#!/usr/bin/env node
 
-const subscriber = redis.createClient();
+const web_ids = require("../lib/web_ids");
 
-let seconds = 0;
-let messageCount = 0;
+// web_ids.start_ids();
 
-subscriber.on("message", function(channel, message) {
-    messageCount += 1;
-
-    console.log("Message from '" + channel + "': " + message);
-
-    const formatted = JSON.parse(message);
-
-    console.log("\n\n");
-    console.log("Parsed message: \n");
-    console.log(formatted);
-});
-
-subscriber.subscribe("nginx_logs_json");
+console.log("YEEEY");
