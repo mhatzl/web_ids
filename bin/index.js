@@ -2,6 +2,4 @@
 
 const web_ids = require("../lib/web_ids");
 
-// web_ids.start_ids();
-
-console.log("YEEEY");
+web_ids.start_ids();
