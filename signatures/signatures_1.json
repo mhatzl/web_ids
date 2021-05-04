@@ -1,0 +1,31 @@
+{
+    "ip_signature": [
+        {
+            "ip": "^\\d{3}\\.\\d{3}\\.\\d{3}\\.\\d{3}$"
+        }
+    ],
+    "header_signature":[
+        {
+            "request_method": "GET",
+            "request_uri": "\/index.php"
+        },
+        {
+            "request_method": "PUT",
+            "request_uri": ".*"
+        }
+    ],
+    "body_signature":[
+        {
+            "request_method": "POST",
+            "request_uri": ".*",
+            "body": ".*\\.exe"
+        }
+    ],
+    "status_signature": [
+        {
+            "request_method": "GET",
+            "request_uri": ".*",
+            "status": "404"
+        }
+    ]
+}

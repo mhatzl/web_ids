@@ -29,5 +29,9 @@
   "homepage": "https://github.com/mhatzl/web_ids#readme",
   "dependencies": {
     "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
