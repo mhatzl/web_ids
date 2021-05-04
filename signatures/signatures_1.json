@@ -1,10 +1,10 @@
 {
-    "ip_signature": [
+    "ipSignature": [
         {
             "ip": "^\\d{3}\\.\\d{3}\\.\\d{3}\\.\\d{3}$"
         }
     ],
-    "header_signature":[
+    "headerSignature":[
         {
             "request_method": "GET",
             "request_uri": "\/index.php"
@@ -14,14 +14,14 @@
             "request_uri": ".*"
         }
     ],
-    "body_signature":[
+    "bodySignature":[
         {
             "request_method": "POST",
             "request_uri": ".*",
             "body": ".*\\.exe"
         }
     ],
-    "status_signature": [
+    "statusSignature": [
         {
             "request_method": "GET",
             "request_uri": ".*",
