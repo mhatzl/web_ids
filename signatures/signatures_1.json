@@ -4,7 +4,7 @@
             "ip": "^\\d{3}\\.\\d{3}\\.\\d{3}\\.\\d{3}$"
         }
     ],
-    "headerSignature":[
+    "uriSignature":[
         {
             "request_method": "GET",
             "request_uri": "\/index.php"
