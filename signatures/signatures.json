@@ -1,0 +1,31 @@
+{
+    "ipSignature": [
+        {
+            "ip": "^178\\.191\\.129\\.127$"
+        }
+    ],
+    "headerSignature":[
+        {
+            "requestMethod": "GET",
+            "requestUri": "\/index.php"
+        },
+        {
+            "requestMethod": "PUT",
+            "requestUri": ".*"
+        }
+    ],
+    "bodySignature":[
+        {
+            "requestMethod": "POST",
+            "requestUri": ".*",
+            "body": ".*\\.exe"
+        }
+    ],
+    "statusSignature": [
+        {
+            "requestMethod": "GET",
+            "requestUri": ".*",
+            "status": "404"
+        }
+    ]
+}
