@@ -54,30 +54,31 @@ template(name="web_ids_json" type="list" ){
   constant(value=",")
   property(name="msg" outname="srcip" format="jsonf"
     regex.type="ERE"
-    regex.expression="[[:digit:].]+"
+    regex.expression="([[:graph:]]+) : \"[[:graph:]]+\" : \".*\" : [[:graph:]]+ : \".*\""
+    regex.submatch="1"
   )
   constant(value=",")
   property(name="msg" outname="method" format="jsonf"
     regex.type="ERE"
-    regex.expression=": \"([[:alpha:]]+)\" :"
+    regex.expression="[[:graph:]]+ : \"([[:graph:]]+)\" : \".*\" : [[:graph:]]+ : \".*\""
     regex.submatch="1"
   )
   constant(value=",")
   property(name="msg" outname="uri" format="jsonf"
     regex.type="ERE"
-    regex.expression="[[:alpha:]]+\" : \"(.*)\" :"
+    regex.expression="[[:graph:]]+ : \"[[:graph:]]+\" : \"(.*)\" : [[:graph:]]+ : \".*\""
     regex.submatch="1"
   )
   constant(value=",")
   property(name="msg" outname="status" format="jsonf"
     regex.type="ERE"
-    regex.expression="[[:alpha:]]+\" : \".*\" : ([[:digit:]]+)"
+    regex.expression="[[:graph:]]+ : \"[[:graph:]]+\" : \".*\" : ([[:graph:]]+) : \".*\""
     regex.submatch="1"
   )
   constant(value=",")
   property(name="msg" outname="body" format="jsonf"
     regex.type="ERE"
-    regex.expression="[[:alpha:]]+\" : \".*\" : [[:digit:]]+ : \"(.*)\""
+    regex.expression="[[:graph:]]+ : \"[[:graph:]]+\" : \".*\" : [[:graph:]]+ : \"(.*)\""
     regex.submatch="1"
   )
   constant(value="}")
