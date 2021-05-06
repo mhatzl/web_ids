@@ -8,8 +8,8 @@ The fixed JSON-format looks as follows:
 	"timestamp" : "<Monthname> <Day> <HH:MM:SS>",
 	"service" : "<nginx, apache, ...>",
 	"srcip" : "<source ip-address>",
-	"request_method" : "<request method>",
-	"request_uri" : "<requested uri>",
+	"method" : "<request method>",
+	"uri" : "<requested uri>",
 	"status" : "<request status>",
 	"body" : "<request body>"
 }
@@ -57,13 +57,13 @@ template(name="web_ids_json" type="list" ){
     regex.expression="[[:digit:].]+"
   )
   constant(value=",")
-  property(name="msg" outname="request_method" format="jsonf"
+  property(name="msg" outname="method" format="jsonf"
     regex.type="ERE"
     regex.expression=": \"([[:alpha:]]+)\" :"
     regex.submatch="1"
   )
   constant(value=",")
-  property(name="msg" outname="request_uri" format="jsonf"
+  property(name="msg" outname="uri" format="jsonf"
     regex.type="ERE"
     regex.expression="[[:alpha:]]+\" : \"(.*)\" :"
     regex.submatch="1"
