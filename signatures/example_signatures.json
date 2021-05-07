@@ -1,0 +1,96 @@
+{
+    "ipSignature": [
+        {
+            "ip": "^176\\.191\\.129\\.\\d{1,3}$"
+        },
+        {
+            "ip": "^85\\.90\\.156\\.157$"
+        },
+        {
+            "ip": "^161\\.35\\.27\\.209$"
+        },
+        {
+            "ip": "^134\\.119\\.219\\.71$"
+        },
+        {
+            "ip": "^103\\.227\\.8\\.42$"
+        }
+    ],
+    "requestSignature": [
+        {
+            "method": "^GET$",
+            "uri": "^/index.php$"
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/index.html$"
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/wp-login.php$"
+        },
+        {
+            "method": "^HEAD$",
+            "uri": "^/uHTL$"
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/.env$"
+        },
+        {
+            "status": "^3\\d\\d$"
+        },
+        {
+            "method": "^POST$",
+            "body": "^.*password=12345678.*$"
+        },
+        {
+            "method": "^POST$",
+            "body": "^.*password=password.*$"
+        },
+        {
+            "method": "^POST$",
+            "body": "^.*\\.exe.*$"
+        },
+        {
+            "method": "^POST$",
+            "body": "^.*\\.sh.*$"
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/etc/passwd$"
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/etc/shadow$"
+        },
+        {
+            "method": "^HEAD$",
+            "uri": "^/robots.txt$"
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/nmaplowercheck1487075443$"
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/nice%20ports%2C/Tri%6Eity\\.txt%2ebak"
+        },
+        {
+           "method": "^GET$",
+           "uri": "^//pma/scripts/setup\\.php$" 
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/w00tw00t\\.at\\.blackhats\\.romanian\\.anti-sec:)$"
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/phpmyadmin/scripts/setup\\.php$" 
+        },
+        {
+            "method": "^GET$",
+            "uri": "^/dbadmin/scripts/setup\\.php$" 
+        }
+    ]
+}
