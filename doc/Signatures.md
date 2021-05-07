@@ -21,10 +21,12 @@ web_ids allows addition of multiple signature files. To add one you have to put 
 
 ## IP Signatures
 
-`ipSignature` is an array of Regex strings that represent certain IPs or IP ranges. For example, an entry might look like this:
+`ipSignature` is an array of objects. Each object contains one key `ip` which has a Regex string that represents certain IPs or IP ranges as its value. For example, an entry might look like this:
 
 ```json
-^123\\.456\\.789\\.012$
+{
+  "ip": "^123\\.456\\.789\\.012$"
+}
 ```
 
 ## Request Signatures
