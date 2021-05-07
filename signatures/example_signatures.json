@@ -82,7 +82,7 @@
         },
         {
             "method": "^GET$",
-            "uri": "^/w00tw00t\\.at\\.blackhats\\.romanian\\.anti-sec:)$"
+            "uri": "^/w00tw00t\\.at\\.blackhats\\.romanian\\.anti-sec:\\)$"
         },
         {
             "method": "^GET$",
