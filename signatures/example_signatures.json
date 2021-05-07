@@ -19,23 +19,23 @@
     "requestSignature": [
         {
             "method": "^GET$",
-            "uri": "^\/index.php$"
+            "uri": "^/index.php$"
         },
         {
             "method": "^GET$",
-            "uri": "^\/index.html$"
+            "uri": "^/index.html$"
         },
         {
             "method": "^GET$",
-            "uri": "^\/wp-login.php$"
+            "uri": "^/wp-login.php$"
         },
         {
             "method": "^HEAD$",
-            "uri": "^\/uHTL$"
+            "uri": "^/uHTL$"
         },
         {
             "method": "^GET$",
-            "uri": "^\/.env$"
+            "uri": "^/.env$"
         },
         {
             "status": "^3\\d\\d$"
@@ -58,39 +58,39 @@
         },
         {
             "method": "^GET$",
-            "uri": "^\/etc\/passwd$"
+            "uri": "^/etc/passwd$"
         },
         {
             "method": "^GET$",
-            "uri": "^\/etc\/shadow$"
+            "uri": "^/etc/shadow$"
         },
         {
             "method": "^HEAD$",
-            "uri": "^\/robots.txt$"
+            "uri": "^/robots.txt$"
         },
         {
             "method": "^GET$",
-            "uri": "^\/nmaplowercheck1487075443$"
+            "uri": "^/nmaplowercheck1487075443$"
         },
         {
             "method": "^GET$",
-            "uri": "^\/nice%20ports%2C\/Tri%6Eity\\.txt%2ebak"
+            "uri": "^/nice%20ports%2C/Tri%6Eity\\.txt%2ebak"
         },
         {
            "method": "^GET$",
-           "uri": "^\/\/pma\/scripts\/setup\\.php$" 
+           "uri": "^//pma/scripts/setup\\.php$" 
         },
         {
             "method": "^GET$",
-            "uri": "^\/w00tw00t\\.at\\.blackhats\\.romanian\\.anti-sec:)$"
+            "uri": "^/w00tw00t\\.at\\.blackhats\\.romanian\\.anti-sec:)$"
         },
         {
             "method": "^GET$",
-            "uri": "^\/phpmyadmin\/scripts\/setup\\.php$" 
+            "uri": "^/phpmyadmin/scripts/setup\\.php$" 
         },
         {
             "method": "^GET$",
-            "uri": "^\/dbadmin\/scripts\/setup\\.php$" 
+            "uri": "^/dbadmin/scripts/setup\\.php$" 
         }
     ]
 }
